@@ -1,0 +1,26 @@
+.botao{
+  background-color: var(--p1);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font: 700 0.875rem "Inter Bold", sans-serif;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 25px;
+}
+.botao:hover{
+  background-color: var(--escura);
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto 0 auto;
+}
+
+
+
+@media (max-width: 1200px){
+  .container{
+  margin: 0 15px 0 15px;
+  }
+}

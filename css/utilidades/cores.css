@@ -1,0 +1,25 @@
+:root{
+  --p1: #f05d4d;
+  --p2: #dfa646;
+  /* #9e9c9f; */
+  --clara: #73879b; 
+  --clara-2: #95a6b8; 
+  --escura: #00001a;
+}
+
+.escura{
+  color: var(--escura);
+}
+
+.clara{
+  color: var(--clara);
+}
+.clara-2{
+  color: var(--clara-2);
+}
+.p1{
+ color: var(--p1);
+}
+.p2{
+  color: var(--p2);
+}

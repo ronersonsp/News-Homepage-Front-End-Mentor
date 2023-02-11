@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Inter Bold';
+  src: url('../fonts/static/Inter-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inter Extrabold';
+  src: url('../fonts/static/Inter-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inter Regular';
+  src: url('../fonts/static/Inter-Regular.ttf') format('truetype');
+}
+
+.font-extrabold{
+  font: 800 3.5rem/4rem "Inter Extrabold", sans-serif;
+}
+.font-extrabold-b{
+  font: 800 2rem/1.5rem "Inter Extrabold", sans-serif;
+}
+.font-bold{
+  font: 700 1.5rem/1rem "Inter Bold", sans-serif;
+}
+.font-bold-b{
+  font: 700 2.5rem "Inter Bold", sans-serif;
+}
+.font-bold-m{
+  font: 700 1.3rem/1.5rem "Inter Bold", sans-serif;
+}
+.font-regular{
+  font: 400 1rem/1.5rem "Inter Regular", sans-serif;
+}
+.font-regular-b{
+  font: 400 1.1rem/1.675rem "Inter Regular", sans-serif;
+}
+
+@media (max-width: 600px){
+  .font-extrabold{
+    font: 800 2.5rem/2.5rem "Inter Extrabold", sans-serif;
+  }
+}
